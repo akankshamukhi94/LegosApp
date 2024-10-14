@@ -20,11 +20,11 @@ const path = require("path");
 const app = express();
 const PORT = 3000;
 //
-
-app.set('views', __dirname + '/views');
-
 // Define the static folder
 app.use(express.static(path.join(__dirname, "public")));
+app.set('views', __dirname + '/views');
+
+
 // Initialize the sets array
 legoData.initialize()
     .then(() => {
