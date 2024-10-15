@@ -1,7 +1,7 @@
 // server.js
 
 /********************************************************************************
-* WEB322 – Assignment 02
+* WEB322 – Assignment 03
 * 
 * I declare that this assignment is my own work in accordance with Seneca's
 * Academic Integrity Policy:
@@ -10,7 +10,7 @@
 * 
 * Name: _____________Akanksha_________ Student ID: _____155514227_________ Date: ___30-09-24___________
 *
-* Published URL: legoapp.vercel.app
+* Published URL: https://legos-app.vercel.app/
 *
 ********************************************************************************/
 const express = require("express");
