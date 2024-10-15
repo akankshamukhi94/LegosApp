@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Lego Collection | Home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+        </div>
+      
+        <div class="navbar-center hidden sm:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="/about">About</a></li>
+            <li>
+              <details>
+                <summary>Theme</summary>
+                <ul class="p-2 bg-base-100 right-0">
+                  <li><a href="/lego/sets?theme=Icons">Icons</a></li>
+                  <li><a href="/lego/sets?theme=Supplemental">Supplemental</a></li>
+                  <li><a href="/lego/sets?theme=Duplo%20and%20Explore">Duplo and Explore</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    <!-- container with class mx-auto -->
+    <div class="container mx-auto">
+      
+
+        <!-- hero -->
+        <div class="hero bg-base-200">
+            <div class="text-center hero-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Explore our Lego collection</h1>
+                <p class="mb-5">
+                We have a wide range of Lego sets for you to choose from. Click the button below to see our
+                collection.
+                </p>
+                <a href="/lego/sets" class="btn btn-primary">View Lego Sets</a>
+            </div>
+            </div>
+        </div>
+        <!-- grid -->
+        <div class="grid grid-cols-3 gap-4">
+            <!-- card 1 -->
+            <div class="card bordered shadow-lg">
+            <div class="card-body">
+              <h2 class="card-title">Icons</h2>
+                <img src="https://cdn.rebrickable.com/media/sets/10304-1.jpg" alt="Lego set 001-1" />
+                <p>Lego set icons are visual symbols that represent different themes and categories of Lego sets, aiding in easy identification and organization.</p>
+                <a href="/lego/sets/10305-1" class="btn btn-primary">View Set</a>
+            </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card bordered shadow-lg">
+            <div class="card-body">
+              <h2 class="card-title">Supplemental</h2>
+                <img src="https://cdn.rebrickable.com/media/sets/103-1.jpg" alt="Lego set 002-1" />
+                <p>Supplemental Lego sets provide extra parts and accessories to enhance and expand existing Lego builds.</p>
+                <a href="/lego/sets/103-1" class="btn btn-primary">View Set</a>
+            </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card bordered shadow-lg">
+            <div class="card-body">
+              <h2 class="card-title">Duplo and Explore</h2>
+                <img src="https://cdn.rebrickable.com/media/sets/1044-1.jpg" alt="Lego set 003-1" />
+                <p>Duplo sets feature larger bricks for toddlers, while Explore sets focus on creative and educational play.</p>
+                <a href="/lego/sets/1044-1" class="btn btn-primary">View Set</a>
+            </div>
+            </div>
+        </div>
+  </body>
+</html>
